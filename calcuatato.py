@@ -115,7 +115,7 @@ async def clear(ctx, amount= 5):
 	await ctx.channel.purge(limit=amount)
 	print ("Cleared "  +str(amount))
 
-bot.run("NjYwODM1MjQ0MzkxMjY4Mzgy.XkUruA.kHYYpm36xQrkowyu4ezSn0xNdPE")
+bot.run("NjYwODM1MjQ0MzkxMjY4Mzgy.XkyUXA.V-e-zmHOQEGasdbazuTurjaD7-M")
 
     	
  
