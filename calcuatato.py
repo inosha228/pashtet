@@ -3,6 +3,7 @@ from discord.ext import commands
 bot = commands.Bot(command_prefix= 'Паштет ' )
 import typing
 import random
+import os
 bot.remove_command('help')
 
 @bot.event
@@ -142,9 +143,9 @@ async def unmute(ctx, member: discord.Member = None,):
 @commands.has_permissions(manage_messages= True)
 async def clear(ctx, amount= 5):
 	await ctx.channel.purge(limit=amount)
-	await ctx.send(f'Отчисщено {amount}')
+	await ctx.send(f'Отчисено {amount}')
 
-bot.run('NjYwODM1MjQ0MzkxMjY4Mzgy.XkyaZA.rjdnh6dFiF7rT3Lgy8gWiPDpdY4')
+token = os.environ.get('bot_token')
 
     	
  
