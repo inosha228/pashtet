@@ -3,7 +3,6 @@ from discord.ext import commands
 bot = commands.Bot(command_prefix= 'Паштет ' )
 import typing
 import random
-import os
 bot.remove_command('help')
 
 @bot.event
@@ -145,7 +144,7 @@ async def clear(ctx, amount= 5):
 	await ctx.channel.purge(limit=amount)
 	await ctx.send(f'Отчисщено {amount}')
 
-token = os.environ.get('bot_token')
+bot.run('NjYwODM1MjQ0MzkxMjY4Mzgy.XkyZeg.4UUY1C8bVLwLY7wpUWTbhhnBDkY')
 
     	
  
