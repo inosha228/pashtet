@@ -156,6 +156,7 @@ async def clear(ctx, amount= 5):
 
 
 token = os.environ.get('run')
+bot.run('token')
 
     	
  
