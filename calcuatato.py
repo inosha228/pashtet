@@ -155,7 +155,7 @@ async def clear(ctx, amount= 5):
 	await ctx.send(f'Отчисено {amount}')
 
 
-token = os.environ.get('run')
+token = os.envilon.get('run')
 
     	
  
